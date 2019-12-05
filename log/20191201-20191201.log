@@ -1,0 +1,12 @@
+["SELECT time, sum(win_count) impression, sum(win_price) cost FROM cpm_log_all WHERE time >= '2019120108' AND time < '2019120108' AND app_key = '86025b8fa53dd7862f0fdae6418f753c' GROUP BY time"]
+[]
+date(UTC),impressions,spends($)
+{'date(UTC)': ('impressions', 'spends($)')}
+Traceback (most recent call last):
+  File "/home/gaoyuan/guoda/smart_ad/dailyReportForSmartyAds.py", line 221, in <module>
+    main()
+  File "/home/gaoyuan/guoda/smart_ad/dailyReportForSmartyAds.py", line 217, in main
+    email(file_content=file_content, file_name=output_file, date_set=date_set)
+  File "/home/gaoyuan/guoda/smart_ad/dailyReportForSmartyAds.py", line 137, in email
+    date_str = date_set[0]
+IndexError: list index out of range

@@ -1,0 +1,25 @@
+["SELECT time, sum(win_count) impression, sum(win_price) cost FROM cpm_log_all WHERE time >= '2019120108' AND time < '2019120208' AND app_key = '86025b8fa53dd7862f0fdae6418f753c' GROUP BY time"]
+[((2019120108, Decimal('936'), 0.26108249548997264), (2019120109, Decimal('531'), 0.14963356884254608), (2019120110, Decimal('532'), 0.1472631167707732), (2019120111, Decimal('778'), 0.21572200731316116), (2019120112, Decimal('802'), 0.23296911804936826), (2019120113, Decimal('455'), 0.1490095859480789), (2019120114, Decimal('614'), 0.18160735724086408), (2019120115, Decimal('925'), 0.2487622394983191), (2019120116, Decimal('1400'), 0.42350640959921293), (2019120117, Decimal('1458'), 0.46732323622563854), (2019120118, Decimal('1075'), 0.3237678495643195), (2019120119, Decimal('860'), 0.26607017444621306), (2019120120, Decimal('597'), 0.16696001395757776), (2019120121, Decimal('222'), 0.06574737843766343), (2019120122, Decimal('156'), 0.0448229906760389), (2019120123, Decimal('165'), 0.04364523976983037), (2019120200, Decimal('255'), 0.06910611905914266), (2019120201, Decimal('202'), 0.05040786006429698), (2019120202, Decimal('217'), 0.05337861967564095), (2019120203, Decimal('250'), 0.05995129098300822), (2019120204, Decimal('348'), 0.09640378215408418), (2019120205, Decimal('312'), 0.08861558089847676), (2019120206, Decimal('342'), 0.09031856911315117), (2019120207, Decimal('304'), 0.08998596901074052))]
+date(UTC),impressions,spends($)
+{'date(UTC)': ('impressions', 'spends($)'), '20191201': (Decimal('13736'), 3.9860605727881193)}
+邮件发送成功Content-Type: multipart/related; boundary="===============0580409054057133209=="
+MIME-Version: 1.0
+From: kikatech <dag.guo@kikatech.com>
+To: smartyads <gaoyuanandy@163.com>
+Bcc: tina.yang@kikatech.com,gaoyuan@kikatech.com
+Subject: =?utf-8?q?Kikatech_DSP_stats_for_smartyads_RTB_20191201?=
+
+--===============0580409054057133209==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PHA+VGhpcyByZXBvcnQgaXMgZ2VuZXJhdGVkIGJ5IEtpa2F0ZWNoLiBQbGVhc2Ugbm90ZSB0aGF0
+IHRoZXNlIG51bWJlcnMgbmVlZCBub3QgYmUgZmluYWwgYW5kIGNhbiBiZSBhZGp1c3RlZCB0b3dh
+cmRzIHRoZSBtb250aCBlbmQuIERpc2NsYWltZXI6IFBsZWFzZSBkbyBub3QgcmVwbHkgdG8gdGhp
+cyBlbWFpbC48L3A+PHRhYmxlIGJvcmRlcj0iMSI+PHRyPjx0aD5kYXRlKFVUQyk8L3RoPjx0aD5p
+bXByZXNzaW9uczwvdGg+PHRoPnNwZW5kcygkKTwvdGg+PC90cj48dHI+PHRkPjIwMTkxMjAxPC90
+ZD48dGQ+MTM3MzY8L3RkPjx0ZD4zLjk4NjwvdGQ+PC90cj48L3RhYmxlPg==
+
+--===============0580409054057133209==--
+
