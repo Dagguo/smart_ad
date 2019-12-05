@@ -33,4 +33,4 @@ list='846925213@qq.com'
 
 mkdir -p /home/guoda/log/dsp/
 ssp_log=/home/guoda/log/dsp/${dsp_name}_${start_date}-${end_date}.log
-python3 /home/gaoyuan/guoda/smart_ad/dailyReportForDSP.py -s ${start_date} -e ${end_date} -d ${source} -n ${dsp_name} -u ${utc_interval} -l ${list} > ${ssp_log} 2>&1
+python3 /home/guoda/smart_ad/dailyReportForDSP.py -s ${start_date} -e ${end_date} -d ${source} -n ${dsp_name} -u ${utc_interval} -l ${list} > ${ssp_log} 2>&1
