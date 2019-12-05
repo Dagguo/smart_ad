@@ -31,6 +31,6 @@ list='846925213@qq.com'
 # python3 /home/lvguangli/project/facebook_crawler/dailyReportForDSP.py -s ${start_date} -e ${end_date} -d ${source} -n ${dsp_name} -u ${utc_interval} -l ${list} > ${ssp_log} 2>&1
 
 
-mkdir -p /home/gaoyuan/guoda/log/dsp/
-ssp_log=/home/gaoyuan/guoda/log/dsp/${dsp_name}_${start_date}-${end_date}.log
+mkdir -p /home/guoda/log/dsp/
+ssp_log=/home/guoda/log/dsp/${dsp_name}_${start_date}-${end_date}.log
 python3 /home/gaoyuan/guoda/smart_ad/dailyReportForDSP.py -s ${start_date} -e ${end_date} -d ${source} -n ${dsp_name} -u ${utc_interval} -l ${list} > ${ssp_log} 2>&1
