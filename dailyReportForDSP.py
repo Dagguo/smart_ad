@@ -231,7 +231,7 @@ def main():
     end = datetime.strptime(end_date, '%Y%m%d')
     if end - start == timedelta(days=1):
         father_dir = start_date[0:8]
-    output_file = '/home/gaoyuan/guoda/smart_ad/dailyReportFor' + dsp_name + '/' \
+    output_file = '/home/guoda/smart_ad/dailyReportFor' + dsp_name + '/' \
                   + father_dir + '/dailyReportOf' + dsp_name + '.csv'
     # 删除旧数据
     if os.path.exists(output_file):
