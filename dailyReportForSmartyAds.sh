@@ -20,6 +20,6 @@ else
     echo 'Usage: [start_date] [end_date]'
     exit 0
 fi
-mkdir -p /home/gaoyuan/guoda/smart_ad/log/
-smartyads_log=/home/gaoyuan/guoda/smart_ad/log/${start_date}-${end_date}.log
-python3 /home/gaoyuan/guoda/smart_ad/dailyReportForSmartyAds.py -s ${start_date} -e ${end_date}  > ${smartyads_log} 2>&1
+mkdir -p /home/guoda/smart_ad/log/
+smartyads_log=/home/guoda/smart_ad/log/${start_date}-${end_date}.log
+python3 /home/guoda/smart_ad/dailyReportForSmartyAds.py -s ${start_date} -e ${end_date}  > ${smartyads_log} 2>&1
