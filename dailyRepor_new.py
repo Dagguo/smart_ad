@@ -269,7 +269,7 @@ def main():
         for bidder in bidder_set:
             for (bidder_date, bidder_win, bidder_revenue) in bidder:
                 find_req = False
-                for request in request_set:
+                for request in [request_set]:
                     for (request_date, request_count) in request:
                         if bidder_date == request_date:
                             find_req = True
