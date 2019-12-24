@@ -264,7 +264,7 @@ def main():
         print(query_list)
         # 查询语句
         raw=(('20191201',0,0),('20191202',0,0),('20191203',0,0),('20191204',0,0),('20191205',0,0))
-        bidder_set = raw+query_from_mysql_on_new_sql(query_list=query_list)[0]
+        bidder_set = [raw+query_from_mysql_on_new_sql(query_list=query_list)[0]]
         print(bidder_set)
         for bidder in bidder_set:
             for (bidder_date, bidder_win, bidder_revenue) in bidder:
