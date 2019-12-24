@@ -65,11 +65,11 @@ def read_dsp_request(start_date: str, end_date: str, utc_interval: int, ad_sourc
     sql = sql_template.format(utc_interval, start_date, end_date, ad_source)
     print(sql)
     result = session.execute(sql).fetchall()
-    print(result)
     result_set=[('20191201', 0), ('20191202', 0), ('20191203', 0), ('20191204', 0), ('20191205', 0)]
     if len(result) > 0:
-        result_set=[result_set+result]
+        result_set=result_set+result
     session.close()
+    print(result_set)
     return result_set
 
 
@@ -263,7 +263,8 @@ def main():
         query_list.append(bidder_sql)
         print(query_list)
         # 查询语句
-        bidder_set = query_from_mysql_on_new_sql(query_list=query_list)
+        raw=[('20191201', 0,0), ('20191202', 0,0), ('20191203',0,0), ('20191204', 0,0), ('20191205', 0,0)]
+        bidder_set = raw+query_from_mysql_on_new_sql(query_list=query_list)
         print(bidder_set)
         for bidder in bidder_set:
             for (bidder_date, bidder_win, bidder_revenue) in bidder:
