@@ -23,8 +23,8 @@ fi
 
 echo ${start_date}
 echo ${end_date}
-source='Webeye2'
-dsp_name='Webeye2'
+source='webeye2'
+dsp_name='webeye2'
 utc_interval=0
 #list='lvguangli@pku.edu.cn,guangli.lv@kikatech.com,lvguangli.pku@gmail.com'
 #list='gaoyuan@kikatech.com,gaoyuanandy@163.com'
