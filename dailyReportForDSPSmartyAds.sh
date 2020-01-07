@@ -24,7 +24,7 @@ source='smartyads'
 dsp_name='smartyads'
 utc_interval=0
 #list='846925213@qq.com'
-list='finance@smartyads.com,inna.samko@smartyads.com,kuixi.hao@kikatech.com,tina.yang@kikatech.com,gaoyuan@kikatech.com,846925213@qq.com'
+list='finance@smartyads.com,inna.samko@smartyads.com,kuixi.hao@kikatech.com,tina.yang@kikatech.com,gaoyuan@kikatech.com,846925213@qq.com,arthur@smartyads.com'
 #list='lvguangli@pku.edu.cn,guangli.lv@kikatech.com,lvguangli.pku@gmail.com,gaoyuan@kikatech.com,gaoyuanandy@163.com'
 # mkdir -p /home/lvguangli/spark/log/dsp/
 # ssp_log=/home/lvguangli/spark/log/dsp/${dsp_name}_${start_date}-${end_date}.log

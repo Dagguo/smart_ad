@@ -105,7 +105,7 @@ def email(file_content: dict, file_name: str, date_set: list):
     # for test
     # receivers = ['1214933295@qq.com', 'lvguangli@pku.edu.cn', 'guangli.lv@kikatech.com']
     receivers = ['finance@smartyads.com', 'inna.samko@smartyads.com',
-                 'kuixi.hao@kikatech.com', 'tina.yang@kikatech.com', 'gaoyuan@kikatech.com','846925213@qq.com']
+                 'kuixi.hao@kikatech.com', 'tina.yang@kikatech.com', 'gaoyuan@kikatech.com','846925213@qq.com','arthur@smartyads.com']
     #receivers = ['gaoyuanandy@163.com', 'tina.yang@kikatech.com', 'gaoyuan@kikatech.com']
     #receivers = ['846925213@qq.com']
 
